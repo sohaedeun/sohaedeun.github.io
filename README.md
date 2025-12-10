@@ -328,3 +328,34 @@ a{color:inherit;text-decoration:none}
 
 /* Desktop-only: explicitly disable responsive adjustments */
 /* No media queries: layout remains desktop-first */
+# Marimekko-style Desktop Redesign (GitHub Pages)
+
+This repository contains a desktop-focused redesign prototype inspired by Marimekko's patterns and product-first photography.
+It is intended for GitHub Pages (static site). **Note: mobile/responsive improvements are intentionally excluded per request.**
+
+## Included files
+- `index.html` — Main page with sections for 의류 (Clothing), 가방 (Bags), 액세서리 (Accessory), 리빙 (Living).
+- `style.css` — Desktop-first CSS. No responsive breakpoints.
+- (All images use placeholder images from picsum.photos for prototype.)
+
+## How to publish
+1. Create a new GitHub repository (e.g. `marimekko-redesign`).
+2. Upload `index.html`, `style.css`, and `README.md` to the repository root.
+3. Enable GitHub Pages from repository Settings → Pages → Select branch (main) → Save.
+4. Visit `https://<your-username>.github.io/<repo-name>/` to preview.
+
+## Design notes (desktop-only)
+- Fixed 4-column grids for product sections to provide consistent rhythm on large screens.
+- Pattern accents are decorative and non-intrusive, keeping attention on product photography.
+- Product cards use uniform 4:3 aspect ratio thumbnails and clear information hierarchy (title → meta → price).
+- Sales/banners are minimized to reduce clutter and highlight the curated selection.
+
+## Customization
+- Replace placeholder images with your product images (maintain 4:3 aspect ratio).
+- Add product links, detail pages or a CMS for dynamic content.
+- If you'd like a responsive/mobile version later, I can add breakpoints and touch-friendly UI.
+
+---
+
+Built as a prototype for sohaedeun · 2025
+
