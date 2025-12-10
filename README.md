@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[story.html](https://github.com/user-attachments/files/24077816/story.html)<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="utf-8" />
@@ -296,4 +296,80 @@
   });
 </script>
 </body>
-</html>
+</html[category.html](https://github.com/user-attachments/files/24077808/category.html)
+>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimekko Redesign</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Marimekko</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="category.html">Category</a>
+    <a href="story.html">Story</a>
+    <button id="darkToggle">Dark</button>
+  </nav>
+</header>
+<main>
+<section class='fade'><h2>Category</h2><div class='grid'><div class='card'>Item A</div><div class='card'>Item B</div></div></section></main>
+<footer class="footer">© 2025 Marimekko Redesign</footer>
+</body>[product.html](https://github.com/user-attachments/files/24077814/product.html)
+</html><!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimekko Redesign</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Marimekko</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="category.html">Category</a>
+    <a href="story.html">Story</a>
+    <button id="darkToggle">Dark</button>
+  </nav>
+</header>
+<main>
+<section class='fade'><h2>Product Detail</h2><p>Beautiful pattern inspired by nature.</p></section></main>
+<footer class="footer">© 2025 Marimekko Redesign</footer>
+</body></html>
+[Uploading story.h<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimekko Redesign</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Marimekko</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="category.html">Category</a>
+    <a href="story.html">Story</a>
+    <button id="darkToggle">Dark</button>
+  </nav>
+</header>
+<main>
+<section class='fade'><h2>Our Story</h2><p>Marimekko’s legacy reimagined.</p></section></main>
+<footer class="footer">© 2025 Marimekko Redesign</footer>
+</body></html>tml…]()
+![pattern](https://github.com/user-attachments/assets/02da3165-cc98-4ae4-84c3-21d931cb0565)
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="100" r="80" fill="#ff6f61" />
+<circle cx="60" cy="60" r="30" fill="#ffffff" />
+<circle cx="140" cy="140" r="30" fill="#ffffff" />
+</svg>
