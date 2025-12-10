@@ -297,3 +297,76 @@
 </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimekko Redesign</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Marimekko</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="category.html">Category</a>
+    <a href="story.html">Story</a>
+    <button id="darkToggle">Dark</button>
+  </nav>
+</header>
+<main>
+<section class='fade'><h2>Category</h2><div class='grid'><div class='card'>Item A</div><div class='card'>Item B</div></div></section></main>
+<footer class="footer">© 2025 Marimekko Redesign</footer>
+</body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimekko Redesign</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo">Marimekko</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="category.html">Category</a>
+    <a href="story.html">Story</a>
+    <button id="darkToggle">Dark</button>
+  </nav>
+</header>
+<main>
+<section class='fade'><h2>Our Story</h2><p>Marimekko’s legacy reimagined.</p></section></main>
+<footer class="footer">© 2025 Marimekko Redesign</footer>
+</body></html>
+
+body { margin:0; font-family:Arial; background:#fff; color:#222; transition:0.3s; }
+header { display:flex; justify-content:space-between; padding:20px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+.card { padding:40px; background:#f5f5f5; border-radius:20px; animation:float 4s infinite ease-in-out; }
+.fade { opacity:0; animation:fadeIn 1s forwards; }
+
+/* pattern background */
+.hero { height:60vh; background:url('assets/pattern.svg'); background-size:cover; display:flex; align-items:center; justify-content:center; }
+
+/* dark mode */
+body.dark { background:#111; color:#eee; }
+body.dark .card { background:#222; }
+
+@keyframes fadeIn { to { opacity:1; } }
+@keyframes float { 0%{transform:translateY(0);} 50%{transform:translateY(-10px);} 100%{transform:translateY(0);} }
+document.addEventListener('DOMContentLoaded',()=>{
+  document.getElementById('darkToggle').onclick=()=>{
+    document.body.classList.toggle('dark');
+  };
+});
+
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="100" r="80" fill="#ff6f61" />
+<circle cx="60" cy="60" r="30" fill="#ffffff" />
+<circle cx="140" cy="140" r="30" fill="#ffffff" />
+</svg>
